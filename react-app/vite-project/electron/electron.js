@@ -10,6 +10,7 @@ function createWindow() {
     autoHideMenuBar: true,
     resizable: false,
     frame: true,
+    icon: "launchicon.png",
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
