@@ -10,7 +10,7 @@ function createWindow() {
     autoHideMenuBar: true,
     resizable: false,
     frame: true,
-    icon: "icon.ico",
+    icon: "ic_launcher_round.png",
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
